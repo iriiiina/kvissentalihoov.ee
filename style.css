@@ -1,0 +1,182 @@
+/* GENERAL */
+
+*, :after, :before {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    color: #3e4444;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+h2 {
+    text-align: center;
+    color: #FF4893;
+    margin-top: 50px;
+    font-size: 1.5em;
+}
+
+hr {
+    border: 1px solid #cc8e35;
+    width: 30%;
+}
+
+a {
+    color: #8B87C1;
+    font-weight: 500;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 768px) {
+    a:hover {
+        color: #FF4893;
+    }
+}
+
+/* HEADER */
+
+header {
+    text-align: center;
+}
+
+header img {
+    width: 20%;
+    margin: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    header img {
+        width: 100px;
+        margin: 20px;
+    }   
+}
+
+/* DESCRIPTION */
+
+#description-section {
+    text-align: center;
+    border: #8B87C1 5px solid;
+    border-radius: 5px;
+    width: 90%;
+    padding: 5px;
+    margin: auto;
+}
+
+@media only screen and (min-width: 768px) {
+    #description-section {
+        width: 60%;
+        padding: 20px;
+    }
+}
+
+/* PROGRAM */
+
+#program-section {
+    text-align: center;
+}
+
+/* RULES */
+
+#rules-section {
+    display: flex;
+    flex-direction: column;
+}
+
+#rules-section img {
+    display: none;
+}
+
+#seller {
+    width: 90%;
+    text-align: center;
+}
+
+#buyer {
+    width: 90%;
+    text-align: center
+}
+
+@media only screen and (min-width: 768px) {
+    #rules-section {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    
+    #rules-section img {
+        display: block;
+        height: 100px;
+    }
+    
+    #seller {
+        width: 40%;
+        text-align: right;
+    }
+    
+    #seller h2 {
+        text-align: right;
+        padding-top: 0;
+        margin-top: 0;
+    }
+    
+    #buyer {
+        width: 40%;
+        text-align: left;
+    }
+    
+    #buyer h2 {
+        text-align: left;
+        padding-top: 0;
+        margin-top: 0;
+    }
+}
+
+/* ORGANIZER */
+
+.organizer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .organizer {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        text-align: left;
+    }
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    background-color: #8B87C1;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    line-height: 0.5em;
+    font-size: 1em;
+}
+
+footer a {
+    color: white;
+}
