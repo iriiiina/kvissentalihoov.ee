@@ -1,3 +1,3 @@
 # Kvissentali hoovimüük
 
-https://kvissentalihoovimuuk.ee
+https://kvissentalihoov.ee
