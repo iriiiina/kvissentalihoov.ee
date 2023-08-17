@@ -13,6 +13,7 @@ body {
     padding: 0;
     font-size: 16px;
     color: #3E4444;
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 h1 {
@@ -34,7 +35,7 @@ hr {
 
 a {
     color: #8B87C1;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 section {
