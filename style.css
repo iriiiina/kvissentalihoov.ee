@@ -95,6 +95,7 @@ header img {
 #rules-section {
     display: flex;
     flex-direction: column;
+    padding-left: 20px;
 }
 
 #rules-section img {
@@ -103,12 +104,24 @@ header img {
 
 #seller {
     width: 90%;
-    text-align: center;
+    text-align: right;
+}
+
+#seller h2 {
+    text-align: right;
+    padding-top: 0;
+    margin-top: 0;
 }
 
 #buyer {
     width: 90%;
-    text-align: center
+    text-align: left;
+}
+
+#buyer h2 {
+    text-align: left;
+    padding-top: 0;
+    margin-top: 0;
 }
 
 @media only screen and (min-width: 768px) {
@@ -126,24 +139,10 @@ header img {
     
     #seller {
         width: 40%;
-        text-align: right;
-    }
-    
-    #seller h2 {
-        text-align: right;
-        padding-top: 0;
-        margin-top: 0;
     }
     
     #buyer {
         width: 40%;
-        text-align: left;
-    }
-    
-    #buyer h2 {
-        text-align: left;
-        padding-top: 0;
-        margin-top: 0;
     }
 }
 
