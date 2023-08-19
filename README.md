@@ -12,3 +12,8 @@ https://kvissentalihoov.ee
 
 * Icons https://www.svgrepo.com
 * Favicons Generator https://realfavicongenerator.net
+
+https://www.svgrepo.com/collection/balls-and-props-tritone-icons/
+https://www.svgrepo.com/collection/traffic-and-daily-life-tritone-icons/
+https://www.svgrepo.com/collection/food-tritone-icons/
+https://www.svgrepo.com/collection/everyday-living-tritone-icons/
