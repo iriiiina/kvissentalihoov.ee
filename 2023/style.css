@@ -52,8 +52,21 @@ section {
 
 /* HEADER */
 
+#sticky-bar {
+    width: 100%;
+    border-bottom: 1px black solid;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background-color: white;
+    padding: 15px 0px;
+    text-align: center;
+}
+
 header {
     text-align: center;
+    margin-top: 70px;
 }
 
 header img {
@@ -86,10 +99,87 @@ header img {
     }
 }
 
-/* ARCHIVE */
+/* PROGRAM */
 
-#archive {
+#program-section {
+    display: flex;
+    flex-direction: column;
+}
+
+#program-legend {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px 0px 50px 0px;
+}
+
+.legend {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px 10px 10px 10px;
+}
+
+.legend svg {
+    height: 50px;
+}
+
+#program {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.backyard {
+    width: 400px;
+    margin: 0 30px 30px 30px;
+    padding: 20px;
+    border: 1px solid #FF4893;
+    border-radius: 5px;
+}
+
+.backyard-name {
     text-align: center;
+    font-size: 1.3em;
+    padding: 5px;
+}
+
+.backyard-info {
+    text-align: center;
+    padding: 5px;
+}
+
+.backyard-info svg {
+    fill: #405d27;
+    height: 30px;
+}
+
+.backyard-description {
+    padding: 5px;
+}
+
+.backyard-icons {
+    text-align: center;
+}
+
+.backyard-icons svg {
+    height: 40px;
+    margin: 10px 10px 0 10px;
+}
+
+/* MAP */
+
+#map-section {
+    text-align: center;
+}
+
+#map-section iframe {
+    width: 1000px;
+    max-width: 96%;
+    border: none;
 }
 
 /* RULES */
